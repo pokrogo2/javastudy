@@ -1,5 +1,5 @@
 package Starcraft;
 
-public class Firebat {
+public class Firebat extends Terran implements Bunkable {
 
 }
