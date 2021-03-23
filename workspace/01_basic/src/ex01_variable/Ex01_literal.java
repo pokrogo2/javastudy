@@ -1,5 +1,5 @@
 package ex01_variable;
-
+//https://github.com/koreaitlecture
 public class Ex01_literal {
 
 	public static void main(String[] args) {
