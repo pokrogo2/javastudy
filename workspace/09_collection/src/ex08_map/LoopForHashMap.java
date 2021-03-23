@@ -51,10 +51,10 @@ public class LoopForHashMap {
 		//iterator
 		Iterator<Map.Entry<String, String>> itr2 = entrys.iterator();
 		while(itr2.hasNext()) {
-			Map.Entry<String, String> key = itr2.next();
-			//Map.Entry<String, String> value = itr2.get(key);
-			System.out.println(key + " : ");
+			Map.Entry<String, String> entry = itr2.next();
+			String key = entry.getKey();
+			String value = entry.getValue();
+			System.out.println(key + ": " + value);
 		}
-		
 	}
 }
